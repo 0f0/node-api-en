@@ -27,7 +27,7 @@ console.log(buf.toString('base64'));
 
 The character encodings currently supported by Node.js include:
 
-* `'ascii'` - for 7-bit ASCII data only. This encoding is fast and will strip
+* `'ascii'` - For 7-bit ASCII data only. This encoding is fast and will strip
   the high bit if set.
 
 * `'utf8'` - Multibyte encoded Unicode characters. Many web pages and other

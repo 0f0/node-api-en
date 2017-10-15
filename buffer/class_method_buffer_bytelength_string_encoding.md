@@ -11,10 +11,10 @@ changes:
 -->
 
 * `string` {string|Buffer|TypedArray|DataView|ArrayBuffer} A value to
-  calculate the length of
+  calculate the length of.
 * `encoding` {string} If `string` is a string, this is its encoding.
   **Default:** `'utf8'`
-* Returns: {integer} The number of bytes contained within `string`
+* Returns: {integer} The number of bytes contained within `string`.
 
 Returns the actual byte length of a string. This is not the same as
 [`String.prototype.length`] since that returns the number of *characters* in

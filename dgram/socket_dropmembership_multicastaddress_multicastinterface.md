@@ -3,7 +3,7 @@ added: v0.6.9
 -->
 
 * `multicastAddress` {string}
-* `multicastInterface` {string}, Optional
+* `multicastInterface` {string}
 
 Instructs the kernel to leave a multicast group at `multicastAddress` using the
 `IP_DROP_MEMBERSHIP` socket option. This method is automatically called by the

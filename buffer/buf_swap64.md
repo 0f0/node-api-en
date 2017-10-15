@@ -2,7 +2,7 @@
 added: v6.3.0
 -->
 
-* Returns: {Buffer} A reference to `buf`
+* Returns: {Buffer} A reference to `buf`.
 
 Interprets `buf` as an array of 64-bit numbers and swaps the byte-order *in-place*.
 Throws a `RangeError` if [`buf.length`] is not a multiple of 8.

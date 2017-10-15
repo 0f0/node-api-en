@@ -17,12 +17,12 @@ changes:
                  and `length` parameters are optional now.
 -->
 
-* `msg` {Buffer|Uint8Array|string|array} Message to be sent
-* `offset` {number} Integer. Optional. Offset in the buffer where the message starts.
-* `length` {number} Integer. Optional. Number of bytes in the message.
+* `msg` {Buffer|Uint8Array|string|Array} Message to be sent.
+* `offset` {number} Integer. Offset in the buffer where the message starts.
+* `length` {number} Integer. Number of bytes in the message.
 * `port` {number} Integer. Destination port.
-* `address` {string} Destination hostname or IP address. Optional.
-* `callback` {Function} Called when the message has been sent. Optional.
+* `address` {string} Destination hostname or IP address.
+* `callback` {Function} Called when the message has been sent.
 
 Broadcasts a datagram on the socket. The destination `port` and `address` must
 be specified.

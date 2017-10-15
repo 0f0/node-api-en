@@ -10,6 +10,7 @@ changes:
 * `fd` {integer}
 * `len` {integer} **Default:** `0`
 * `callback` {Function}
+  * `err` {Error}
 
 Asynchronous ftruncate(2). No arguments other than a possible exception are
 given to the completion callback.

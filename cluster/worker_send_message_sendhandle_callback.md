@@ -9,7 +9,7 @@ changes:
 * `message` {Object}
 * `sendHandle` {Handle}
 * `callback` {Function}
-* Returns: Boolean
+* Returns: {boolean}
 
 Send a message to a worker or master, optionally with a handle.
 

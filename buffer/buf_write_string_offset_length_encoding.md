@@ -2,11 +2,11 @@
 added: v0.1.90
 -->
 
-* `string` {string} String to be written to `buf`
-* `offset` {integer} Where to start writing `string`. **Default:** `0`
-* `length` {integer} How many bytes to write. **Default:** `buf.length - offset`
+* `string` {string} String to be written to `buf`.
+* `offset` {integer} Number of bytes to skip before starting to write `string`. **Default:** `0`
+* `length` {integer} Number of bytes to write. **Default:** `buf.length - offset`
 * `encoding` {string} The character encoding of `string`. **Default:** `'utf8'`
-* Returns: {integer} Number of bytes written
+* Returns: {integer} Number of bytes written.
 
 Writes `string` to `buf` at `offset` according to the character encoding in `encoding`.
 The `length` parameter is the number of bytes to write. If `buf` did not contain

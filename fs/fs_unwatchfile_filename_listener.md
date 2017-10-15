@@ -4,6 +4,8 @@ added: v0.1.31
 
 * `filename` {string|Buffer}
 * `listener` {Function|undefined} **Default:** `undefined`
+  * `eventType` {string}
+  * `filename` {string|Buffer}
 
 Stop watching for changes on `filename`. If `listener` is specified, only that
 particular listener is removed. Otherwise, *all* listeners are removed,

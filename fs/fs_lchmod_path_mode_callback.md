@@ -10,6 +10,7 @@ changes:
 * `path` {string|Buffer}
 * `mode` {integer}
 * `callback` {Function}
+  * `err` {Error}
 
 Asynchronous lchmod(2). No arguments other than a possible exception
 are given to the completion callback.

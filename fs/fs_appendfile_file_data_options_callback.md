@@ -20,6 +20,7 @@ changes:
   * `mode` {integer} **Default:** `0o666`
   * `flag` {string} **Default:** `'a'`
 * `callback` {Function}
+  * `err` {Error}
 
 Asynchronously append data to a file, creating the file if it does not yet exist.
 `data` can be a string or a buffer.

@@ -11,7 +11,7 @@ changes:
 
 > Stability: 0 - Deprecated: Use [`Buffer.from(buffer)`] instead.
 
-* `buffer` {Buffer} An existing `Buffer` to copy data from
+* `buffer` {Buffer} An existing `Buffer` to copy data from.
 
 Copies the passed `buffer` data onto a new `Buffer` instance.
 

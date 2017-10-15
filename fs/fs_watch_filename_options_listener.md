@@ -21,6 +21,8 @@ changes:
   * `encoding` {string} Specifies the character encoding to be used for the
      filename passed to the listener. **Default:** `'utf8'`
 * `listener` {Function|undefined} **Default:** `undefined`
+  * `eventType` {string}
+  * `filename` {string|Buffer}
 
 Watch for changes on `filename`, where `filename` is either a file or a
 directory.  The returned object is a [`fs.FSWatcher`][].

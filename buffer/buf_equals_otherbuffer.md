@@ -6,7 +6,7 @@ changes:
     description: The arguments can now be `Uint8Array`s.
 -->
 
-* `otherBuffer` {Buffer} A `Buffer` or [`Uint8Array`] to compare to
+* `otherBuffer` {Buffer} A `Buffer` or [`Uint8Array`] to compare to.
 * Returns: {boolean}
 
 Returns `true` if both `buf` and `otherBuffer` have exactly the same bytes,

@@ -2,12 +2,12 @@
 added: v0.5.5
 -->
 
-* `value` {integer} Number to be written to `buf`
-* `offset` {integer} Where to start writing. Must satisfy: `0 <= offset <= buf.length - byteLength`
-* `byteLength` {integer} How many bytes to write. Must satisfy: `0 < byteLength <= 6`
+* `value` {integer} Number to be written to `buf`.
+* `offset` {integer} Number of bytes to skip before starting to write. Must satisfy: `0 <= offset <= buf.length - byteLength`.
+* `byteLength` {integer} Number of bytes to write. Must satisfy: `0 < byteLength <= 6`.
 * `noAssert` {boolean} Skip `value`, `offset`, and `byteLength` validation?
   **Default:** `false`
-* Returns: {integer} `offset` plus the number of bytes written
+* Returns: {integer} `offset` plus the number of bytes written.
 
 Writes `byteLength` bytes of `value` to `buf` at the specified `offset`.
 Supports up to 48 bits of accuracy. Behavior is undefined when `value` is

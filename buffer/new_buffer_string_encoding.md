@@ -12,7 +12,7 @@ changes:
 > Stability: 0 - Deprecated:
 > Use [`Buffer.from(string[, encoding])`][`Buffer.from(string)`] instead.
 
-* `string` {string} String to encode
+* `string` {string} String to encode.
 * `encoding` {string} The encoding of `string`. **Default:** `'utf8'`
 
 Creates a new `Buffer` containing the given JavaScript string `string`. If

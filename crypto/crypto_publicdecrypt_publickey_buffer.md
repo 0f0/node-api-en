@@ -2,8 +2,8 @@
 added: v1.1.0
 -->
 - `publicKey` {Object | string}
-  - `key` {string} A PEM encoded private key.
-  - `passphrase` {string} An optional passphrase for the private key.
+  - `key` {string} A PEM encoded public key.
+  - `passphrase` {string} An optional passphrase for the public key.
   - `padding` {crypto.constants} An optional padding value defined in
     `crypto.constants`, which may be: `crypto.constants.RSA_NO_PADDING` or
     `RSA_PKCS1_PADDING`.

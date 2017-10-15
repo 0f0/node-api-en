@@ -9,6 +9,8 @@ changes:
 
 * `fd` {integer}
 * `callback` {Function}
+  * `err` {Error}
+  * `stats` {fs.Stats}
 
 Asynchronous fstat(2). The callback gets two arguments `(err, stats)` where
 `stats` is an [`fs.Stats`][] object. `fstat()` is identical to [`stat()`][],

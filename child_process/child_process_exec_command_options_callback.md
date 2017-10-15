@@ -2,22 +2,23 @@
 added: v0.1.90
 -->
 
-* `command` {string} The command to run, with space-separated arguments
+* `command` {string} The command to run, with space-separated arguments.
 * `options` {Object}
-  * `cwd` {string} Current working directory of the child process
-  * `env` {Object} Environment key-value pairs
-  * `encoding` {string} (Default: `'utf8'`)
-  * `shell` {string} Shell to execute the command with
-    (Default: `'/bin/sh'` on UNIX, `process.env.ComSpec` on Windows. See
-    [Shell Requirements][] and [Default Windows Shell][].)
   * `timeout` {number} (Default: `0`)
+  * `cwd` {string} Current working directory of the child process.
+  * `env` {Object} Environment key-value pairs.
+  * `encoding` {string} **Default:** `'utf8'`
+  * `shell` {string} Shell to execute the command with.
+    **Default:** `'/bin/sh'` on UNIX, `process.env.ComSpec` on Windows. See
+    [Shell Requirements][] and [Default Windows Shell][].
+  * `timeout` {number} **Default:** `0`
   * `maxBuffer` {number} Largest amount of data in bytes allowed on stdout or
-    stderr. (Default: `200*1024`) If exceeded, the child process is terminated.
+    stderr. **Default:** `200*1024`. If exceeded, the child process is terminated.
     See caveat at [`maxBuffer` and Unicode][].
-  * `killSignal` {string|integer} (Default: `'SIGTERM'`)
-  * `uid` {number} Sets the user identity of the process. (See setuid(2).)
-  * `gid` {number} Sets the group identity of the process. (See setgid(2).)
-* `callback` {Function} called with the output when process terminates
+  * `killSignal` {string|integer} **Default:** `'SIGTERM'`
+  * `uid` {number} Sets the user identity of the process (see setuid(2)).
+  * `gid` {number} Sets the group identity of the process (see setgid(2)).
+* `callback` {Function} called with the output when process terminates.
   * `error` {Error}
   * `stdout` {string|Buffer}
   * `stderr` {string|Buffer}

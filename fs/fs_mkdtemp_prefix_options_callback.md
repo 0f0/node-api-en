@@ -14,6 +14,8 @@ changes:
 * `options` {string|Object}
   * `encoding` {string} **Default:** `'utf8'`
 * `callback` {Function}
+  * `err` {Error}
+  * `folder` {string}
 
 Creates a unique temporary directory.
 

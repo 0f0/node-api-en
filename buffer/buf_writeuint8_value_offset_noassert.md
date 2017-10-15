@@ -2,10 +2,10 @@
 added: v0.5.0
 -->
 
-* `value` {integer} Number to be written to `buf`
-* `offset` {integer} Where to start writing. Must satisfy: `0 <= offset <= buf.length - 1`
+* `value` {integer} Number to be written to `buf`.
+* `offset` {integer} Number of bytes to skip before starting to write. Must satisfy: `0 <= offset <= buf.length - 1`.
 * `noAssert` {boolean} Skip `value` and `offset` validation? **Default:** `false`
-* Returns: {integer} `offset` plus the number of bytes written
+* Returns: {integer} `offset` plus the number of bytes written.
 
 Writes `value` to `buf` at the specified `offset`. `value` *should* be a
 valid unsigned 8-bit integer. Behavior is undefined when `value` is anything

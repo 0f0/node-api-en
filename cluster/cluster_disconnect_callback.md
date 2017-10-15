@@ -2,8 +2,8 @@
 added: v0.7.7
 -->
 
-* `callback` {Function} called when all workers are disconnected and handles are
-  closed
+* `callback` {Function} Called when all workers are disconnected and handles are
+  closed.
 
 Calls `.disconnect()` on each worker in `cluster.workers`.
 

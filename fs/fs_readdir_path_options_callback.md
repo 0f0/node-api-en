@@ -18,6 +18,8 @@ changes:
 * `options` {string|Object}
   * `encoding` {string} **Default:** `'utf8'`
 * `callback` {Function}
+  * `err` {Error}
+  * `files` {string[]|Buffer[]}
 
 Asynchronous readdir(3).  Reads the contents of a directory.
 The callback gets two arguments `(err, files)` where `files` is an array of

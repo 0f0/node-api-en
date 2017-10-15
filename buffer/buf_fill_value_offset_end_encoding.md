@@ -6,12 +6,12 @@ changes:
     description: The `encoding` parameter is supported now.
 -->
 
-* `value` {string|Buffer|integer} The value to fill `buf` with
-* `offset` {integer} Where to start filling `buf`. **Default:** `0`
+* `value` {string|Buffer|integer} The value to fill `buf` with.
+* `offset` {integer} Number of bytes to skip before starting to fill `buf`. **Default:** `0`
 * `end` {integer} Where to stop filling `buf` (not inclusive). **Default:** [`buf.length`]
 * `encoding` {string} If `value` is a string, this is its encoding.
   **Default:** `'utf8'`
-* Returns: {Buffer} A reference to `buf`
+* Returns: {Buffer} A reference to `buf`.
 
 Fills `buf` with the specified `value`. If the `offset` and `end` are not given,
 the entire `buf` will be filled. This is meant to be a small simplification to

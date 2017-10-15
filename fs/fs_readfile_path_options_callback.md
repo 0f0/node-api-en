@@ -23,6 +23,8 @@ changes:
   * `encoding` {string|null} **Default:** `null`
   * `flag` {string} **Default:** `'r'`
 * `callback` {Function}
+  * `err` {Error}
+  * `data` {string|Buffer}
 
 Asynchronously reads the entire contents of a file. Example:
 

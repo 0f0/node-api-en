@@ -10,6 +10,7 @@ changes:
 * `fd` {integer}
 * `mode` {integer}
 * `callback` {Function}
+  * `err` {Error}
 
 Asynchronous fchmod(2). No arguments other than a possible exception
 are given to the completion callback.

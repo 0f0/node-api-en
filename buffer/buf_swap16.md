@@ -2,7 +2,7 @@
 added: v5.10.0
 -->
 
-* Returns: {Buffer} A reference to `buf`
+* Returns: {Buffer} A reference to `buf`.
 
 Interprets `buf` as an array of unsigned 16-bit integers and swaps the byte-order
 *in-place*. Throws a `RangeError` if [`buf.length`] is not a multiple of 2.

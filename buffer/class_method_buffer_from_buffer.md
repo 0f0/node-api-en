@@ -2,7 +2,7 @@
 added: v5.10.0
 -->
 
-* `buffer` {Buffer} An existing `Buffer` to copy data from
+* `buffer` {Buffer} An existing `Buffer` to copy data from.
 
 Copies the passed `buffer` data onto a new `Buffer` instance.
 

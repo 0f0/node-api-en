@@ -11,7 +11,7 @@ changes:
 
 > Stability: 0 - Deprecated: Use [`Buffer.from(array)`] instead.
 
-* `array` {Array} An array of bytes to copy from
+* `array` {integer[]} An array of bytes to copy from.
 
 Allocates a new `Buffer` using an `array` of octets.
 

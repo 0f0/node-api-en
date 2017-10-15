@@ -2,20 +2,20 @@
 added: v0.1.91
 -->
 
-* `file` {string} The name or path of the executable file to run
-* `args` {Array} List of string arguments
+* `file` {string} The name or path of the executable file to run.
+* `args` {string[]} List of string arguments.
 * `options` {Object}
-  * `cwd` {string} Current working directory of the child process
-  * `env` {Object} Environment key-value pairs
-  * `encoding` {string} (Default: `'utf8'`)
-  * `timeout` {number} (Default: `0`)
+  * `cwd` {string} Current working directory of the child process.
+  * `env` {Object} Environment key-value pairs.
+  * `encoding` {string} **Default:** `'utf8'`
+  * `timeout` {number} **Default:** `0`
   * `maxBuffer` {number} Largest amount of data in bytes allowed on stdout or
-    stderr. (Default: `200*1024`) If exceeded, the child process is terminated.
+    stderr. **Default:** `200*1024` If exceeded, the child process is terminated.
     See caveat at [`maxBuffer` and Unicode][].
-  * `killSignal` {string|integer} (Default: `'SIGTERM'`)
-  * `uid` {number} Sets the user identity of the process. (See setuid(2).)
-  * `gid` {number} Sets the group identity of the process. (See setgid(2).)
-* `callback` {Function} called with the output when process terminates
+  * `killSignal` {string|integer} **Default:** `'SIGTERM'`
+  * `uid` {number} Sets the user identity of the process (see setuid(2)).
+  * `gid` {number} Sets the group identity of the process (see setgid(2)).
+* `callback` {Function} Called with the output when process terminates.
   * `error` {Error}
   * `stdout` {string|Buffer}
   * `stderr` {string|Buffer}

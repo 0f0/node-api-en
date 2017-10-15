@@ -2,7 +2,7 @@
 added: v5.10.0
 -->
 
-* `size` {integer} The desired length of the new `Buffer`
+* `size` {integer} The desired length of the new `Buffer`.
 * `fill` {string|Buffer|integer} A value to pre-fill the new `Buffer` with.
   **Default:** `0`
 * `encoding` {string} If `fill` is a string, this is its encoding.

@@ -9,7 +9,7 @@ changes:
     description: Additional parameters for specifying offsets are supported now.
 -->
 
-* `target` {Buffer|Uint8Array} A `Buffer` or [`Uint8Array`] to compare to
+* `target` {Buffer|Uint8Array} A `Buffer` or [`Uint8Array`] to compare to.
 * `targetStart` {integer} The offset within `target` at which to begin
   comparison. **Default:** `0`
 * `targetEnd` {integer} The offset with `target` at which to end comparison

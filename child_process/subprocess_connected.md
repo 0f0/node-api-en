@@ -2,7 +2,7 @@
 added: v0.7.2
 -->
 
-* {boolean} Set to `false` after `subprocess.disconnect()` is called
+* {boolean} Set to `false` after `subprocess.disconnect()` is called.
 
 The `subprocess.connected` property indicates whether it is still possible to
 send and receive messages from a child process. When `subprocess.connected` is

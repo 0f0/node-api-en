@@ -1,5 +1,5 @@
 
-* `err` {Error} the error.
+* `err` {Error} The error.
 
 The `'error'` event is emitted whenever:
 

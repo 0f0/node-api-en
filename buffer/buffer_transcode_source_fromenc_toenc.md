@@ -6,9 +6,9 @@ changes:
     description: The `source` parameter can now be a `Uint8Array`.
 -->
 
-* `source` {Buffer|Uint8Array} A `Buffer` or `Uint8Array` instance
-* `fromEnc` {string} The current encoding
-* `toEnc` {string} To target encoding
+* `source` {Buffer|Uint8Array} A `Buffer` or `Uint8Array` instance.
+* `fromEnc` {string} The current encoding.
+* `toEnc` {string} To target encoding.
 
 Re-encodes the given `Buffer` or `Uint8Array` instance from one character
 encoding to another. Returns a new `Buffer` instance.

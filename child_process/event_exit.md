@@ -2,8 +2,8 @@
 added: v0.1.90
 -->
 
-* `code` {number} the exit code if the child exited on its own.
-* `signal` {string} the signal by which the child process was terminated.
+* `code` {number} The exit code if the child exited on its own.
+* `signal` {string} The signal by which the child process was terminated.
 
 The `'exit'` event is emitted after the child process ends. If the process
 exited, `code` is the final exit code of the process, otherwise `null`. If the

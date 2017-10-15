@@ -14,9 +14,9 @@ changes:
     executable. (Default=`process.execArgv`)
   * `exec` {string} File path to worker file.  (Default=`process.argv[1]`)
   * `args` {Array} String arguments passed to worker.
-    (Default=`process.argv.slice(2)`)
+    **Default:** `process.argv.slice(2)`
   * `silent` {boolean} Whether or not to send output to parent's stdio.
-    (Default=`false`)
+    **Default:** `false`
   * `stdio` {Array} Configures the stdio of forked processes. Because the
     cluster module relies on IPC to function, this configuration must contain an
     `'ipc'` entry. When this option is provided, it overrides `silent`.

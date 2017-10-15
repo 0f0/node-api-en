@@ -2,7 +2,7 @@
 added: v0.11.15
 -->
 
-* `offset` {integer} Where to start reading. Must satisfy: `0 <= offset <= buf.length - 4`
+* `offset` {integer} Number of bytes to skip before starting to read. Must satisfy: `0 <= offset <= buf.length - 4`.
 * `noAssert` {boolean} Skip `offset` validation? **Default:** `false`
 * Returns: {number}
 

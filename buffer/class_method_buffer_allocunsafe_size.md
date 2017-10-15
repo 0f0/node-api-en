@@ -6,7 +6,7 @@ changes:
     description: Passing a negative `size` will now throw an error.
 -->
 
-* `size` {integer} The desired length of the new `Buffer`
+* `size` {integer} The desired length of the new `Buffer`.
 
 Allocates a new `Buffer` of `size` bytes.  If the `size` is larger than
 [`buffer.constants.MAX_LENGTH`] or smaller than 0, a [`RangeError`] will be

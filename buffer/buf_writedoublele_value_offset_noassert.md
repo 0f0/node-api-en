@@ -2,10 +2,10 @@
 added: v0.11.15
 -->
 
-* `value` {number} Number to be written to `buf`
-* `offset` {integer} Where to start writing. Must satisfy: `0 <= offset <= buf.length - 8`
+* `value` {number} Number to be written to `buf`.
+* `offset` {integer} Number of bytes to skip before starting to write. Must satisfy: `0 <= offset <= buf.length - 8`.
 * `noAssert` {boolean} Skip `value` and `offset` validation? **Default:** `false`
-* Returns: {integer} `offset` plus the number of bytes written
+* Returns: {integer} `offset` plus the number of bytes written.
 
 Writes `value` to `buf` at the specified `offset` with specified endian
 format (`writeDoubleBE()` writes big endian, `writeDoubleLE()` writes little

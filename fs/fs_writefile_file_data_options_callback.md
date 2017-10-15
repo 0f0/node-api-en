@@ -20,6 +20,7 @@ changes:
   * `mode` {integer} **Default:** `0o666`
   * `flag` {string} **Default:** `'w'`
 * `callback` {Function}
+  * `err` {Error}
 
 Asynchronously writes data to a file, replacing the file if it already exists.
 `data` can be a string or a buffer.

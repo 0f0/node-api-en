@@ -15,6 +15,8 @@ changes:
 * `options` {string|Object}
   * `encoding` {string} **Default:** `'utf8'`
 * `callback` {Function}
+  * `err` {Error}
+  * `linkString` {string|Buffer}
 
 Asynchronous readlink(2). The callback gets two arguments `(err,
 linkString)`.

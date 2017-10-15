@@ -10,12 +10,12 @@ changes:
                  is no longer required.
 -->
 
-* `value` {string|Buffer|Uint8Array|integer} What to search for
+* `value` {string|Buffer|Uint8Array|integer} What to search for.
 * `byteOffset` {integer} Where to begin searching in `buf`. **Default:** `0`
 * `encoding` {string} If `value` is a string, this is its encoding.
   **Default:** `'utf8'`
 * Returns: {integer} The index of the first occurrence of `value` in `buf` or `-1`
-  if `buf` does not contain `value`
+  if `buf` does not contain `value`.
 
 If `value` is:
 

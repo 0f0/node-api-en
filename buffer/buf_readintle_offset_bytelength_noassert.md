@@ -2,9 +2,9 @@
 added: v0.11.15
 -->
 
-* `offset` {integer} Where to start reading. Must satisfy: `0 <= offset <= buf.length - byteLength`
-* `byteLength` {integer} How many bytes to read. Must satisfy: `0 < byteLength <= 6`
-* `noAssert` {boolean} Skip `offset` and `byteLength` validation? **Default:** `false`
+* `offset` {integer} Number of bytes to skip before starting to read. Must satisfy: `0 <= offset <= buf.length - byteLength`.
+* `byteLength` {integer} Number of bytes to read. Must satisfy: `0 < byteLength <= 6`.
+* `noAssert` {boolean} Skip `offset` and `byteLength` validation? **Default:** `false`.
 * Returns: {integer}
 
 Reads `byteLength` number of bytes from `buf` at the specified `offset`

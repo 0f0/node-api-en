@@ -11,6 +11,8 @@ changes:
 * `flags` {string|number}
 * `mode` {integer} **Default:** `0o666`
 * `callback` {Function}
+  * `err` {Error}
+  * `fd` {integer}
 
 Asynchronous file open. See open(2). `flags` can be:
 

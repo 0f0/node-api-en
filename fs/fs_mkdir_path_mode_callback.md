@@ -14,6 +14,7 @@ changes:
 * `path` {string|Buffer|URL}
 * `mode` {integer} **Default:** `0o777`
 * `callback` {Function}
+  * `err` {Error}
 
 Asynchronous mkdir(2). No arguments other than a possible exception are given
 to the completion callback. `mode` defaults to `0o777`.

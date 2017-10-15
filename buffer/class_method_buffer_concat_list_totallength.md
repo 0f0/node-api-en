@@ -6,9 +6,9 @@ changes:
     description: The elements of `list` can now be `Uint8Array`s.
 -->
 
-* `list` {Array} List of `Buffer` or [`Uint8Array`] instances to concat
+* `list` {Array} List of `Buffer` or [`Uint8Array`] instances to concat.
 * `totalLength` {integer} Total length of the `Buffer` instances in `list`
-  when concatenated
+  when concatenated.
 * Returns: {Buffer}
 
 Returns a new `Buffer` which is the result of concatenating all the `Buffer`

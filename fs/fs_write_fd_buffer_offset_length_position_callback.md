@@ -19,6 +19,9 @@ changes:
 * `length` {integer}
 * `position` {integer}
 * `callback` {Function}
+  * `err` {Error}
+  * `bytesWritten` {integer}
+  * `buffer` {Buffer|Uint8Array}
 
 Write `buffer` to the file specified by `fd`.
 

@@ -2,11 +2,11 @@
 added: v0.11.14
 -->
 
-* `options` {Object} - Required. Supports the following properties:
-  * `port` {number} - Optional.
-  * `address` {string} - Optional.
-  * `exclusive` {boolean} - Optional.
-* `callback` {Function} - Optional.
+* `options` {Object} Required. Supports the following properties:
+  * `port` {Integer}
+  * `address` {string}
+  * `exclusive` {boolean}
+* `callback` {Function}
 
 For UDP sockets, causes the `dgram.Socket` to listen for datagram
 messages on a named `port` and optional `address` that are passed as

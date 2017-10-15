@@ -3,7 +3,7 @@ added: v0.6.9
 -->
 
 * `multicastAddress` {string}
-* `multicastInterface` {string}, Optional
+* `multicastInterface` {string}
 
 Tells the kernel to join a multicast group at the given `multicastAddress` and
 `multicastInterface` using the `IP_ADD_MEMBERSHIP` socket option. If the

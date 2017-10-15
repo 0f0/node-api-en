@@ -13,6 +13,8 @@ changes:
 
 * `path` {string|Buffer|URL}
 * `callback` {Function}
+  * `err` {Error}
+  * `stats` {fs.Stats}
 
 Asynchronous stat(2). The callback gets two arguments `(err, stats)` where
 `stats` is an [`fs.Stats`][] object.

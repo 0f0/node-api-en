@@ -15,6 +15,9 @@ changes:
 * `length` {integer}
 * `position` {integer}
 * `callback` {Function}
+  * `err` {Error}
+  * `bytesRead` {integer}
+  * `buffer` {Buffer}
 
 Read data from the file specified by `fd`.
 

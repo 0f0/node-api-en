@@ -4,7 +4,7 @@ deprecated: v6.0.0
 
 > Stability: 0 - Deprecated: Use [`Buffer.allocUnsafeSlow()`] instead.
 
-* `size` {integer} The desired length of the new `SlowBuffer`
+* `size` {integer} The desired length of the new `SlowBuffer`.
 
 Allocates a new `Buffer` of `size` bytes.  If the `size` is larger than
 [`buffer.constants.MAX_LENGTH`] or smaller than 0, a [`RangeError`] will be

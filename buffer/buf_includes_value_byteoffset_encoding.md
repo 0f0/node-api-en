@@ -2,11 +2,11 @@
 added: v5.3.0
 -->
 
-* `value` {string|Buffer|integer} What to search for
+* `value` {string|Buffer|integer} What to search for.
 * `byteOffset` {integer} Where to begin searching in `buf`. **Default:** `0`
 * `encoding` {string} If `value` is a string, this is its encoding.
   **Default:** `'utf8'`
-* Returns: {boolean} `true` if `value` was found in `buf`, `false` otherwise
+* Returns: {boolean} `true` if `value` was found in `buf`, `false` otherwise.
 
 Equivalent to [`buf.indexOf() !== -1`][`buf.indexOf()`].
 

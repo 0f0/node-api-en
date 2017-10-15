@@ -9,24 +9,24 @@ changes:
     description: The `stdio` option is supported now.
 -->
 
-* `modulePath` {string} The module to run in the child
-* `args` {Array} List of string arguments
+* `modulePath` {string} The module to run in the child.
+* `args` {Array} List of string arguments.
 * `options` {Object}
-  * `cwd` {string} Current working directory of the child process
-  * `env` {Object} Environment key-value pairs
-  * `execPath` {string} Executable used to create the child process
-  * `execArgv` {Array} List of string arguments passed to the executable
-    (Default: `process.execArgv`)
+  * `cwd` {string} Current working directory of the child process.
+  * `env` {Object} Environment key-value pairs.
+  * `execPath` {string} Executable used to create the child process.
+  * `execArgv` {Array} List of string arguments passed to the executable.
+    **Default:** `process.execArgv`
   * `silent` {boolean} If `true`, stdin, stdout, and stderr of the child will be
     piped to the parent, otherwise they will be inherited from the parent, see
     the `'pipe'` and `'inherit'` options for [`child_process.spawn()`][]'s
-    [`stdio`][] for more details (Default: `false`)
+    [`stdio`][] for more details. **Default:** `false`
   * `stdio` {Array|string} See [`child_process.spawn()`][]'s [`stdio`][].
     When this option is provided, it overrides `silent`. If the array variant
     is used, it must contain exactly one item with value `'ipc'` or an error
     will be thrown. For instance `[0, 1, 2, 'ipc']`.
-  * `uid` {number} Sets the user identity of the process. (See setuid(2).)
-  * `gid` {number} Sets the group identity of the process. (See setgid(2).)
+  * `uid` {number} Sets the user identity of the process (see setuid(2)).
+  * `gid` {number} Sets the group identity of the process (see setgid(2)).
 * Returns: {ChildProcess}
 
 The `child_process.fork()` method is a special case of

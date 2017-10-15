@@ -15,6 +15,9 @@ changes:
 * `position` {integer}
 * `encoding` {string}
 * `callback` {Function}
+  * `err` {Error}
+  * `written` {integer}
+  * `string` {string}
 
 Write `string` to the file specified by `fd`.  If `string` is not a string, then
 the value will be coerced to one.

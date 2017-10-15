@@ -2,10 +2,9 @@
 added: v0.1.99
 -->
 
-* `port` {number} - Integer, Optional
-* `address` {string}, Optional
-* `callback` {Function} with no parameters, Optional. Called when
-  binding is complete.
+* `port` {number} Integer.
+* `address` {string}
+* `callback` {Function} with no parameters. Called when binding is complete.
 
 For UDP sockets, causes the `dgram.Socket` to listen for datagram
 messages on a named `port` and optional `address`. If `port` is not
