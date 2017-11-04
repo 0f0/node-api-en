@@ -1,3 +1,0 @@
-- `handle` {Object}
-- `callback` {Function}
-
