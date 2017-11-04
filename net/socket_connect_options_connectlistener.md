@@ -23,12 +23,12 @@ this only when implementing a custom Socket.
 For TCP connections, available `options` are:
 
 * `port` {number} Required. Port the socket should connect to.
-* `host` {string} Host the socket should connect to. Defaults to `'localhost'`.
+* `host` {string} Host the socket should connect to. **Default:** `'localhost'`
 * `localAddress` {string} Local address the socket should connect from.
 * `localPort` {number} Local port the socket should connect from.
-* `family` {number}: Version of IP stack, can be either 4 or 6. Defaults to 4.
+* `family` {number}: Version of IP stack, can be either 4 or 6. **Default:** `4`
 * `hints` {number} Optional [`dns.lookup()` hints][].
-* `lookup` {Function} Custom lookup function. Defaults to [`dns.lookup()`][].
+* `lookup` {Function} Custom lookup function. **Default:** [`dns.lookup()`][]
 
 For [IPC][] connections, available `options` are:
 

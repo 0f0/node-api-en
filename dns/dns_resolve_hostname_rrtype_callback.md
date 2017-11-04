@@ -2,7 +2,7 @@
 added: v0.1.27
 -->
 - `hostname` {string} Hostname to resolve.
-- `rrtype` {string} Resource record type. Default: `'A'`.
+- `rrtype` {string} Resource record type. **Default:** `'A'`
 - `callback` {Function}
   - `err` {Error}
   - `records` {string[] | Object[] | Object}

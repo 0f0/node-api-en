@@ -3,8 +3,8 @@ added: v0.1.90
 -->
 * `port` {number}
 * `host` {string}
-* `backlog` {number} Common parameter of [`server.listen()`][] functions
-* `callback` {Function} Common parameter of [`server.listen()`][] functions
+* `backlog` {number} Common parameter of [`server.listen()`][] functions.
+* `callback` {Function} Common parameter of [`server.listen()`][] functions.
 * Returns: {net.Server}
 
 Start a TCP server listening for connections on the given `port` and `host`.

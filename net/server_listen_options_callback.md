@@ -8,10 +8,10 @@ added: v0.11.14
   * `path` {string} Will be ignored if `port` is specified. See
     [Identifying paths for IPC connections][].
   * `backlog` {number} Common parameter of [`server.listen()`][]
-    functions
-  * `exclusive` {boolean} Default to `false`
+    functions.
+  * `exclusive` {boolean} **Default:** `false`
 * `callback` {Function} Common parameter of [`server.listen()`][]
-  functions
+  functions.
 * Returns: {net.Server}
 
 If `port` is specified, it behaves the same as

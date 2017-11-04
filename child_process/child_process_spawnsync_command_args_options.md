@@ -1,6 +1,9 @@
 <!-- YAML
 added: v0.11.12
 changes:
+  - version: v8.8.0
+    pr-url: https://github.com/nodejs/node/pull/15380
+    description: The `windowsHide` option is supported now.
   - version: v8.0.0
     pr-url: https://github.com/nodejs/node/pull/10653
     description: The `input` option can now be a `Uint8Array`.
@@ -36,6 +39,8 @@ changes:
     `'/bin/sh'` on UNIX, and `process.env.ComSpec` on Windows. A different
     shell can be specified as a string. See [Shell Requirements][] and
     [Default Windows Shell][]. **Default:** `false` (no shell).
+  * `windowsHide` {boolean} Hide the subprocess console window that would
+    normally be created on Windows systems. **Default:** `false`.
 * Returns: {Object}
   * `pid` {number} Pid of the child process.
   * `output` {Array} Array of results from stdio output.

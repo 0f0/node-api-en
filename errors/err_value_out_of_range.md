@@ -28,3 +28,4 @@ Used when a given value is out of the accepted range.
 [syscall]: http://man7.org/linux/man-pages/man2/syscall.2.html
 [try-catch]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
 [vm]: vm.html
+[WHATWG Supported Encodings]: util.md#whatwg-supported-encodings

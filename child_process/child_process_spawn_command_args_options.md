@@ -1,6 +1,9 @@
 <!-- YAML
 added: v0.1.90
 changes:
+  - version: v8.8.0
+    pr-url: https://github.com/nodejs/node/pull/15380
+    description: The `windowsHide` option is supported now.
   - version: v6.4.0
     pr-url: https://github.com/nodejs/node/pull/7696
     description: The `argv0` option is supported now.
@@ -27,6 +30,8 @@ changes:
     `'/bin/sh'` on UNIX, and `process.env.ComSpec` on Windows. A different
     shell can be specified as a string. See [Shell Requirements][] and
     [Default Windows Shell][]. **Default:** `false` (no shell).
+  * `windowsHide` {boolean} Hide the subprocess console window that would
+    normally be created on Windows systems. **Default:** `false`.
 * Returns: {ChildProcess}
 
 The `child_process.spawn()` method spawns a new process using the given

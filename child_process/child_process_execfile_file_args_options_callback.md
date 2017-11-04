@@ -1,5 +1,9 @@
 <!-- YAML
 added: v0.1.91
+changes:
+  - version: v8.8.0
+    pr-url: https://github.com/nodejs/node/pull/15380
+    description: The `windowsHide` option is supported now.
 -->
 
 * `file` {string} The name or path of the executable file to run.
@@ -15,6 +19,8 @@ added: v0.1.91
   * `killSignal` {string|integer} **Default:** `'SIGTERM'`
   * `uid` {number} Sets the user identity of the process (see setuid(2)).
   * `gid` {number} Sets the group identity of the process (see setgid(2)).
+  * `windowsHide` {boolean} Hide the subprocess console window that would
+    normally be created on Windows systems. **Default:** `false`.
 * `callback` {Function} Called with the output when process terminates.
   * `error` {Error}
   * `stdout` {string|Buffer}

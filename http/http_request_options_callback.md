@@ -132,7 +132,6 @@ const req = http.request(options, (res) => {
 ```
 
 [`'checkContinue'`]: #http_event_checkcontinue
-[`'listening'`]: net.html#net_event_listening
 [`'request'`]: #http_event_request
 [`'response'`]: #http_event_response
 [`Agent`]: #http_class_http_agent
@@ -151,9 +150,6 @@ const req = http.request(options, (res) => {
 [`http.request()`]: #http_http_request_options_callback
 [`message.headers`]: #http_message_headers
 [`net.Server.close()`]: net.html#net_server_close_callback
-[`net.Server.listen()`]: net.html#net_server_listen_handle_backlog_callback
-[`net.Server.listen(path)`]: net.html#net_server_listen_path_backlog_callback
-[`net.Server.listen(port)`]: net.html#net_server_listen_port_host_backlog_callback
 [`net.Server`]: net.html#net_class_net_server
 [`net.Socket`]: net.html#net_class_net_socket
 [`net.createConnection()`]: net.html#net_net_createconnection_options_connectlistener
@@ -170,6 +166,7 @@ const req = http.request(options, (res) => {
 [`response.write(data, encoding)`]: #http_response_write_chunk_encoding_callback
 [`response.writeContinue()`]: #http_response_writecontinue
 [`response.writeHead()`]: #http_response_writehead_statuscode_statusmessage_headers
+[`server.listen()`]: net.html#net_server_listen
 [`server.timeout`]: #http_server_timeout
 [`setHeader(name, value)`]: #http_request_setheader_name_value
 [`socket.setKeepAlive()`]: net.html#net_socket_setkeepalive_enable_initialdelay
@@ -179,5 +176,3 @@ const req = http.request(options, (res) => {
 [Readable Stream]: stream.html#stream_class_stream_readable
 [Writable Stream]: stream.html#stream_class_stream_writable
 [socket.unref()]: net.html#net_socket_unref
-[unspecified IPv4 address]: https://en.wikipedia.org/wiki/0.0.0.0
-[unspecified IPv6 address]: https://en.wikipedia.org/wiki/IPv6_address#Unspecified_address

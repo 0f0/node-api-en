@@ -9,11 +9,11 @@ Creates a new socket object.
     the given file descriptor, otherwise a new socket will be created.
   * `allowHalfOpen` {boolean} Indicates whether half-opened TCP connections
     are allowed. See [`net.createServer()`][] and the [`'end'`][] event
-    for details. Defaults to `false`.
+    for details. **Default:** `false`
   * `readable` {boolean} Allow reads on the socket when an `fd` is passed,
-    otherwise ignored. Defaults to `false`.
+    otherwise ignored. **Default:** `false`
   * `writable` {boolean} Allow writes on the socket when an `fd` is passed,
-    otherwise ignored. Defaults to `false`.
+    otherwise ignored. **Default:** `false`
 * Returns: {net.Socket}
 
 The newly created socket can be either a TCP socket or a streaming [IPC][]

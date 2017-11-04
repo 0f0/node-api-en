@@ -8,7 +8,8 @@ const readline = require('readline');
 const fs = require('fs');
 
 const rl = readline.createInterface({
-  input: fs.createReadStream('sample.txt')
+  input: fs.createReadStream('sample.txt'),
+  crlfDelay: Infinity
 });
 
 rl.on('line', (line) => {
@@ -23,3 +24,4 @@ rl.on('line', (line) => {
 [Readable]: stream.html#stream_readable_streams
 [TTY]: tty.html
 [Writable]: stream.html#stream_writable_streams
+[reading files]: #readline_example_read_file_stream_line_by_line
