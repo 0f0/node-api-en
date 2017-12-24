@@ -2,7 +2,7 @@
 added: v8.5.0
 -->
 
-* `label` {any}
+* `...label` {any}
 
 Increases indentation of subsequent lines by two spaces.
 

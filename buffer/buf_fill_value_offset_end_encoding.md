@@ -38,3 +38,16 @@ Example: Fill a `Buffer` with a two-byte character
 console.log(Buffer.allocUnsafe(3).fill('\u0222'));
 ```
 
+If `value` contains invalid characters, it is truncated; if no valid
+fill data remains, no filling is performed:
+
+```js
+const buf = Buffer.allocUnsafe(5);
+// Prints: <Buffer 61 61 61 61 61>
+console.log(buf.fill('a'));
+// Prints: <Buffer aa aa aa aa aa>
+console.log(buf.fill('aazz', 'hex'));
+// Prints: <Buffer aa aa aa aa aa>
+console.log(buf.fill('zz', 'hex'));
+```
+
